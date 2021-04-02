@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("hammerfont.woff2") format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("poppinsfont.woff2") format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Muda a cor do navbar */
+.navbar-custom {
+    background-color: #232ED1;
+}
+
+/*Muda a cor do texto da Brand*/
+.navbar-custom .navbar-brand, .navbar-custom .navbar-text {
+    font-family: Hammersmith One,Arial;
+    font-size: 22px;
+    color: #fff;
+    line-height:initial;
+}
+
+/*Muda a cor do Hover do Brand text */
+.navbar-custom .navbar-brand:hover {color: #CDCDCD;}
+
+/*Define o tamanho a logo*/
+.brand-img{
+    height:30px;
+    width:30px;
+}
+
+/*Muda a cor dos links do navbar*/
+.navbar-custom .navbar-nav .nav-link {
+    font-family: Hammersmith One,Arial;
+    color: #fff;
+}
+
+/*Muda a cor do Hover dos links*/
+.navbar-custom .navbar-nav .nav-link:hover {color: #CDCDCD;}
+
+/* Muda a cor do container-fluid principal */
+.principal{
+    background-color: #393b3f;
+}
+
+/* Muda a font do h2 */
+.panel{
+	font-size: 20px;
+	font-family: 'Hammersmith One', Arial, cursive;
+	color: #fff;
+}
+
+/* Muda a font do h5 */
+.panelsub{
+	font-size: 14px;
+	font-family: 'Hammersmith One', Arial, cursive;
+	color: #fff;
+}
+
+
+.card_rg{
+	background-color: #111111;
+	background-clip: content-box;
+	box-shadow: 0 0 30px 6px rgba(31, 51, 73, 0.10);
+	border-radius: calc(1.25rem - 8px) calc(1.25rem - 8px) calc(1.25rem - 8px) calc(1.25rem - 8px);
+}
+.card_rg:hover{
+	transform: scale(1.01);
+	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.cardd_a{
+	background-clip: content-box;
+	border: 0px solid rgba(0,0,0,.125);
+	border-radius: calc(1.25rem - 8px) calc(1.25rem - 8px) calc(1.25rem - 8px) calc(1.25rem - 8px);
+	box-shadow: 0 0 30px 6px rgba(31, 51, 73, 0.10);
+	}
+.cardd_a:hover{
+		 transform: scale(1.03);
+		 box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+
+/*card dos estados e embaixo o hover do mesmo*/
+.card{
+	background-color: #111111;
+	background-clip: content-box;
+	box-shadow: 0 0 30px 6px rgba(31, 51, 73, 0.10);
+	border-radius: calc(2rem - 10px) calc(2rem - 10px) calc(2rem - 10px) calc(2rem - 10px);
+	}
+.card:hover{
+		 transform: scale(1.01);
+		 box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+/* card-header do card dos casos 
+card header title
+*/
+.cht_casos{
+	font-family: 'Poppins', Arial, cursive;
+	font-size: 22px;
+	color:white;
+	background-color: #134611;
+}
+/* card-header do card dos casos confirmados */
+.cht_conf{
+	font-family: 'Poppins', Arial, cursive;
+	font-size: 22px;
+	color:white;
+	background-color: #715AFF;
+}
+/* card-header do card dos óbitos */
+.cht_obt{
+	font-family: 'Poppins', Arial, cursive;
+	font-size: 22px;
+	color:white;
+	background-color: #004643;
+}
+
+/* Muda a font o tamanho dela, e sua cor, dos números dos dados */
+.font_num_dados{
+	color: #fff;
+	font-family: 'Poppins', Arial;
+	font-size:17px;
+}
+
+/* Muda a font e a cor da letra dos dados */
+.font_text_dados{
+	font-family: 'Poppins', Arial;
+	color: #e8e8e88c;
+}
+
+/* Muda o border-radius do card-header deixando redondo */
+.card-header:first-child{
+	border-radius: calc(1.25rem - 8px) calc(1.25rem - 8px) 0 0;
+}
+
+/* Muda a cor de fundo do card, o border radius em baixo,
+e a sombra
+*/
+.cardd{
+	background-color: #111111;
+	background-clip: content-box;
+	border: 0px solid rgba(0,0,0,.125);
+	border-radius: calc(1.25rem - 8px) calc(1.25rem - 8px) calc(1.25rem - 8px) calc(1.25rem - 8px);
+	box-shadow: 0 0 20px 10px rgba(31, 51, 73, 0.35);
+}
+/* Dá um mini zoom no card */
+.cardd:hover{
+		 transform: scale(1.02);
+		 box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+/* Botão para abrir a lista dos estados das respectivas regiões */
+.btt{
+	background-color: #50e3c2;
+}
+
+.statesSubMenu{
+    background-color:#1e1e1e;
+    border-radius: calc(2rem - 10px) calc(2rem - 10px) calc(2rem - 10px) calc(2rem - 10px);
+}
+
+/* Footer */
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #161b22;
+    font-family: 'Hammersmith One', Arial, cursive;
+    color: #fff;
+}
+
+/* Muda a cor do ícone do instagram, e o hover do href */
+.instagram{color: #fff; text-decoration:unset}
+.instagram:hover{color: #CDCDCD; text-decoration: unset;}
+
+/* Muda a cor do ícone do coração */
+.heart{color: #FF007B;}
+
+/* Muda a cor do ícone do menu */
+.menuicon{color: #fff;}
